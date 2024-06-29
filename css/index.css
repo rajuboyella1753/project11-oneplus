@@ -61,7 +61,7 @@
 
 /* ! Mobile nav-bar */
 .mobile-nav{
-  height: 7vh;
+  height: 8.2vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -113,7 +113,7 @@
 /* ! Banner session start*/
 .banner1{
   height: 60vh;
-  width: 100%;
+  width: 99.9%;
   position: relative;
   background-color: green;
   margin-top: 50px;
@@ -121,7 +121,9 @@
 }
 .banner1>img{
   height: 60vh;
-  width: 100%;
+
+  width: 99.9%;
+
   opacity: 0.9;
 }
 .banner1>.banner1-content{
@@ -166,7 +168,9 @@
 }
 .banner2>img{
   height: 60vh;
+
   width: 100%;
+
   opacity: 0.9;
 }
 .banner2>.banner1-content{
