@@ -66,9 +66,11 @@
   position: fixed;
 }
 .mobile-nav>img{
-  height: 6vh;
+  height: 4vh;
   width: 6vw;
   border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 .mobile-nav>h4{
   background:linear-gradient(to top, red 90% , green 50%, yellow 10%);
@@ -76,7 +78,7 @@
   background-clip: text;
   font-size: 19px;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .mobile-nav>ul{
   display: flex;
