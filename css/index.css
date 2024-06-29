@@ -67,7 +67,7 @@
 }
 .mobile-nav>img{
   height: 4vh;
-  width: 6vw;
+  width: 7.5vw;
   border-radius: 25px;
   margin-top: 10px;
   margin-left: 5px;
@@ -88,7 +88,7 @@
 }
 .mobile-nav>ul>li{
   list-style: none;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 20px;
   font-size: 13px;
 }
