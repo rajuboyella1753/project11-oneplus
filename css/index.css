@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/*? Desktop nav bar  start*/
+
+.navbar-desk{
+  height: 7vh;
+  width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.navbar-desk>#nav-bar-title{
+  height: 5vh;
+  border-radius: 35px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.navbar-desk>#name{
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background: linear-gradient(green 1% , red  100%, yellow 1%);
+  color: transparent;
+  background-clip: text;
+}
+.navbar-desk>ul{
+  display: flex;
+  gap: 40px;
+  margin-left: 90px;
+}
+.navbar-desk>ul>li{
+  list-style: none;
+  margin-top: 10px;
+}
+.navbar-desk>ul>li>a{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbar-desk>ul>li>a:hover{
+  text-decoration: underline;
+  color: green;
+}
+.navbar-desk>span>i{
+  margin-top: 10px;
+  margin-left: 90px;
+}
+/*? Desktop nav bar  end*/
+
+/* ! Mobile nav-bar */
+.mobile-nav{
+  height: 7vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+}
+.mobile-nav>img{
+  height: 6vh;
+  width: 6vw;
+  border-radius: 25px;
+}
+.mobile-nav>h4{
+  background:linear-gradient(to top, red 90% , green 50%, yellow 10%);
+  color: transparent;
+  background-clip: text;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-nav>ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.mobile-nav>ul>li{
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+.mobile-nav>ul>li>a{
+  color: white;
+}
+.mobile-nav>ul>li>a:hover{
+  text-decoration: underline;
+}
+.mobile-nav>ul>i{
+  margin-left: 10px;
+  color: white;
+}
+.mobile-nav>ul>i{
+  margin-top: 15px;
+  gap: 10px;
+}
