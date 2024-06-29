@@ -1,5 +1,4 @@
 ![oneplus](./images/title.png)
-![oneplus](./images/title.png)
 # OnePlus India is here
 
 ![oneplus](./images/call-center.jpg)
@@ -12,3 +11,4 @@ All new branded one plus mobiles at one place
 >Development start date
 >>29-06-2024
 >>>Boyella Raju
+
