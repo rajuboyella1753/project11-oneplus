@@ -13,12 +13,13 @@
 .navbar-desk{
   position: fixed;
   height: 7vh;
-  width: 100%;
+  width: 99.9%;
   background-color: whitesmoke;
   color: black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  z-index: 1;
 }
 .navbar-desk>#nav-bar-title{
   height: 5vh;
@@ -116,10 +117,12 @@
   position: relative;
   background-color: green;
   margin-top: 50px;
+  z-index: 0;
 }
 .banner1>img{
   height: 60vh;
   width: 100%;
+  opacity: 0.9;
 }
 .banner1>.banner1-content{
   position:absolute;
@@ -137,14 +140,65 @@
 .banner1>.banner1-content>#live1{
   margin-top: 60px;
 }
-.banner1>.banner1-content>#button-1{
+.banner1>.banner1-content>a>#button-1{
   border-radius: 10px;
   width: 200px;
   background-color: black;
+  color: white;
+  transition: all 0.4s ease;
+}
+.banner1>.banner1-content>a>#button-1:hover{
+  background-color: red;
   color: white;
 }
 .banner1>.banner1-content>#learn{
   text-decoration: underline;
   margin-top: 20px;
 }
+/* ? banner 2 */
+.banner2{
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background-color: green;
+  margin-top: 1px;
+  z-index: 0;
+}
+.banner2>img{
+  height: 60vh;
+  width: 100%;
+  opacity: 0.9;
+}
+.banner2>.banner1-content{
+  position:absolute;
+  top:5%;
+  left: 5%;
+}
+.banner2>.banner1-content>h4{
+  color: black;
+  opacity: 0.5;
+  font-size: 19px;
+}
+.banner2>.banner1-content>h2{
+  font-size: 33px;
+}
+.banner2>.banner1-content>#live1{
+  margin-top: 60px;
+}
+.banner2>.banner1-content>a>#button-1{
+  border-radius: 10px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: all 0.4s ease;
+}
+.banner2>.banner1-content>a>#button-1:hover{
+  background-color: red;
+  color: white;
+}
+.banner2>.banner1-content>#learn{
+  text-decoration: underline;
+  margin-top: 20px;
+}
+/* ? banner 2 */
 /* ! Banner session end*/

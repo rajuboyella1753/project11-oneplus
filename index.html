@@ -49,6 +49,7 @@
 @media(max-width:420px){
   .mobile-nav{
     position: fixed;
+    z-index: 1;
   }
   .mobile-nav>ul>#wear{
     display: none;
@@ -57,6 +58,7 @@
     height: 40vh;
     width: 100%;
     position: relative;
+    z-index: 0;
   }
   .banner1>img{
     height: 40vh;
@@ -77,19 +79,79 @@
   margin-top: 20px;
   font-size: 10px;
 }
-.banner1>.banner1-content>#button-1{
+.banner1>.banner1-content>a>#button-1{
   border-radius: 10px;
   width: 80px;
   margin-top: 25px;
-  margin-left: 200px;
+  margin-left: 10px;
   background-color: red;
   color: white;
+  border:none;
+  transition: all 0.4s ease;
+}
+.banner1>.banner1-content>a>#button-1:hover{
+  color: white;
+  background-color: black;
 }
 .banner1>.banner1-content>#learn{
   text-decoration: underline;
   margin-top: 8px;
-  margin-left: 200px;
+  margin-left: 10px;
+  transition: all 0.4s ease;
 }
+.banner1>.banner1-content>#learn:hover{
+  color: red;
+}
+/*  banner 2 start*/
+.banner2{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+  }
+  .banner2>img{
+    height: 40vh;
+    width: 100%;
+  }
+  .banner2>.banner1-content{
+    position: absolute;
+    top: 6px;
+    left: 1px;
+  }
+  .banner2>.banner1-content>h4{
+    font-size: 10px;
+  }
+  .banner2>.banner1-content>h2{
+    font-size: 20px;
+  }
+  .banner2>.banner1-content>#live1{
+  margin-top: 60px;
+  font-size: 9px;
+}
+.banner2>.banner1-content>a>#button-1{
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  transition: all 0.4s ease;
+  border:none;
+}
+.banner2>.banner1-content>a>#button-1:hover{
+  color: white;
+  background-color: black;
+}
+.banner2>.banner1-content>#learn{
+  text-decoration: underline;
+  margin-top: 8px;
+  margin-left: 10px;
+  transition: all 0.4s ease;
+}
+.banner2>.banner1-content>#learn:hover{
+  color:red;
+}
+/*  banner 2 end*/
 }
 </style>
 <body>
@@ -129,9 +191,9 @@
       <img src="./images/title.png" alt="">
       <h4>Oneplus</h4>
       <ul>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Phone</a></li>
-        <li><a href="#">Tablet</a></li>
+        <li><a href="./store/index.html">Store</a></li>
+        <li><a href="./phone/index.html">Phone</a></li>
+        <li><a href="./login/index.html">Login</a></li>
         <li id="wear"><a href="#" >Wearables</a></li>
           <i class="fa-solid fa-magnifying-glass"></i>
           <i class="fa-solid fa-cart-shopping"></i>
@@ -149,11 +211,27 @@
   <div class="row">
     <div class="banner1">
       <img src="./images/first-banner.webp" alt="">
-     <div class="banner1-content">
+     <div class="banner1-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <h4>120Hz AMOLED Display | 50MP Sony LYT-<br>600 Camera</h4>
         <h2>OnePlus Nord CE4 <br>Lite 5G</h2>
         <p id="live1">Starting From ₹18,999Inci.Bank Discount <br>Sale is Live!</p>
-        <input type="button" value="Buy Now" id="button-1">
+       <a href="./Buy/index.html"><input type="button" value="Buy Now" id="button-1"></a> 
+        <p id="learn">Learn More</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ! banner2 -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="banner2">
+      <img src="./images/banner-2.webp" alt="">
+     <div class="banner1-content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h4>Pro Performance, not Pro Price</h4>
+        <h2>OnePlus 12</h2>
+        <p id="live1">Starting From ₹61,999Inci.Bank Discount Buy  <br>now to enjoy exchange bonuc up to ₹12,000 <br>
+        and 12-month No Cost EMI</p>
+      <a href="./Buy/index.html"> <input type="button" value="Buy Now" id="button-1"></a> 
         <p id="learn">Learn More</p>
       </div>
     </div>
