@@ -45,6 +45,15 @@
   .mobile-nav>ul>i{
     display: none;
   }
+  .main-block{
+  z-index: 0;
+}
+.main-block>.block1{
+  z-index: 0;
+}
+.main-block>.block1>img{
+  z-index: 0;
+}
 }
 @media(max-width:420px){
   .mobile-nav{
@@ -156,7 +165,67 @@
   color:red;
 }
 /*  banner 2 end*/
+.main-block{
+  z-index: 0;
 }
+.main-block>.block1{
+  z-index: 0;
+  margin-top: 5px;
+}
+.main-block>.block1>.banner1-content>h2{
+  font-size: 10px;
+}
+.main-block>.block1>.banner1-content>#save1{
+  font-size: 10px;
+}
+
+.main-block>.block1>img{
+  z-index: 0;
+  border-style: groove;
+}
+.main-block>.block1>.block1-content>.block1-but{
+  margin-top: 100px;
+  border:none;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  /* margin-left: 5px; */
+  height: 30px;
+  width: 30%;
+  margin-left: 20px;
+}
+.main-block>.block1>.block1-content>.block11-but{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 17px;
+  width: 110px;
+  margin-top: 110px;
+  margin-left: 0px;
+}
+.main-block>.block1>.block1-content>.block111-but{
+color: white;
+background-color: black;
+border-radius: 10px;
+font-size: 17px;
+width: 100px;
+}
+#br{
+  display: none;
+}
+.main-block>.block1>.block1-content>#white{
+  color: white;
+  margin-top: 220px;
+  font-size: 21px;
+}
+.main-block>.block1>.block1-content>#whit{
+  color: white;
+  font-size: 10px;
+  margin-left: 10px;
+}
+}
+
 </style>
 <body>
 
@@ -211,7 +280,7 @@
 
 <!-- ? Desktop banner content start -->
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="banner1">
       <img src="./images/first-banner.webp" alt="">
@@ -226,7 +295,7 @@
   </div>
 </div>
 <!-- ! banner2 -->
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="banner2">
       <img src="./images/banner-2.webp" alt="">
@@ -242,7 +311,7 @@
   </div>
 </div>
 <!-- ! banner 3 -->
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="banner2">
       <img src="./images/banner-3.webp" alt="">
@@ -258,7 +327,7 @@
   </div>
 </div>
 <!-- ! banner 4 -->
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="banner2">
       <img src="./images/call-center.jpg" alt="">
@@ -273,9 +342,111 @@
     </div>
   </div>
 </div>
-
 <!-- ? Desktop banner content end -->
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="main-block">
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block1.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus 12R</h2>
+          <p id="save1">From ₹3000/mo.for 12 mo.with No Cost EMI  or ₹35,999 IncI.Bank Discount. <br>
+          Save up to ₹6000 when exchange the eligible phone.</p>
+
+         <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block2.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus Open</h2>
+          <p id="save1">From ₹134,999IncI.Bank Discount. <br>
+          Enjoy OnePlus Watch 2(worth ₹27,999) as a gift.</p>
+
+          <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+     
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block3.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus Nord 3 5G</h2>
+          <p id="save1">From ₹31,999IncI.Bank Discount. <br>
+          No Cost Emi up to 6 months.</p>
+          <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block4.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus Pad Go</h2>
+          <p id="save1">From ₹17,999 <br> IncI.Bank Discount.</p>
+          <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block5.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus Buds Pro2</h2>
+          <p id="save1">From ₹10,999  <br> IncI.Bank Discount.</p>
+          <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block6.webp" alt="">
+        <div class="block1-content">
+          <h2>OnePlus Watch 2</h2>
+          <p id="save1">From ₹22,999⁕ <br> IncI.Bank Discount. </p>
+          <button class="block1-but"><a href="./Buy/index.html">Buy-Now</a></button><br id="br">
+
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block7.webp" alt="">
+        <div class="block1-content">
+          <h2>Easy Upgrades</h2>
+          <p id="save1">Get a OnePlus Flagship at a fraction of price</p>
+          <button class="block1-but"><a href="./Buy/index.html">Know</a></button><br id="br">
+
+          <!-- <button class="block11-but">Add to Cart</button>
+          <button class="block111-but">Know More</button> -->
+        </div>
+      </div>
+
+      <div class="block1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <img src="./images/block8.jpg" alt="">
+        <div class="block1-content">
+          <h2 id="white">Student Discount</h2>
+          <p id="whit">Students can avail additional discount on select products.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 

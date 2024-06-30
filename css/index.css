@@ -7,6 +7,7 @@
   /* font-family: "Poppins", sans-serif; */
   /* font-family: "Playfair Display", serif; */
   font-family: "Roboto Slab", serif;
+  overflow: none;
 }
 /*? Desktop nav bar  start*/
 
@@ -115,14 +116,12 @@
   height: 60vh;
   width: 99.9%;
   position: relative;
-  background-color: green;
   margin-top: 50px;
   z-index: 0;
 }
 .banner1>img{
   height: 60vh;
   width: 99.9%;
-  opacity: 0.9;
 }
 .banner1>.banner1-content{
   position:absolute;
@@ -167,7 +166,6 @@
 .banner2>img{
   height: 60vh;
   width:100%;
-  opacity: 0.9;
 }
 .banner2>.banner1-content{
   position:absolute;
@@ -201,4 +199,106 @@
   margin-top: 20px;
 }
 /* ? banner 2 */
-/* ! Banner session end*/
+/* * Banner session end*/
+/* ! block session start */
+.main-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 0;
+}
+.main-block>.block1{
+  height: 50vh;
+  width: 45%;
+  /* border-style: groove; */
+  z-index: 0;
+  position: relative;
+}
+.main-block>.block1>img{
+  height: 50vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.main-block>.block1>.block1-content{
+  position: absolute;
+  top: 20px;
+  flex-wrap: wrap;
+}
+.main-block>.block1>.block1-content>h2{
+  margin-left: 20px;
+}
+.main-block>.block1>.block1-content>p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.main-block>.block1>.block1-content>.block1-but{
+  margin-top: 100px;
+  border:none;
+  font-size: 19px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 10vw;
+}
+.main-block>.block1>.block1-content>.block11-but{
+color: white;
+background-color: black;
+margin-top: 60px;
+width: 10vw;
+border-radius: 10px;
+}
+.main-block>.block1>.block1-content>.block111-but{
+color: white;
+background-color: black;
+width: 10vw;
+border-radius: 10px;
+}
+.main-block>.block1>.block1-content>#white{
+  color: white;
+  margin-top: 260px;
+}
+.main-block>.block1>.block1-content>#whit{
+  color: white;
+  font-size: 21px;
+  margin-left: 10px;
+}
+.main-block>.block1>.block1-content>#save1{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* ! block2 */
+.main-block>.block1{
+  height: 50vh;
+  width: 45%;
+  position: relative;
+  z-index: 0;
+}
+.main-block>.block1>img{
+  height: 50vh;
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! block session end */
