@@ -214,6 +214,7 @@
   width: 100%;
   margin-top: 20px;
   z-index: 0;
+  background-color: whitesmoke;
 }
 .main-block>.block1{
   height: 50vh;
@@ -233,7 +234,7 @@
   flex-wrap: wrap;
 }
 .main-block>.block1>.block1-content>h2{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .main-block>.block1>.block1-content>p{
   font-size: 14px;
