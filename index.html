@@ -417,7 +417,101 @@ footer>#hr{
   text-decoration: underline;
 }
 /* ! footer */
+/* ! left content */
+.left-flex-main{
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.left-flex-main>h2{
+  font-size: 20px;
+  font-weight: 300;
+}
+.left-flex-main>h2>b{
+  color: red;
+}
+.left-flex-main>.left1{
+  height: 51vh;
+  width: 70%;
+}
+.left-flex-main>.left1>img{
+  height: 51vh;
+  width: 100%;
+  border-radius: 6px;
+}
+.left-flex-main>.left2{
+  height: 51vh;
+  width: 30%;
+  background-color: black;
+}
+.left-flex-main>.left2>h3{
+  font-size: 11px;
+  margin-left: 10px;
+}
+.left-flex-main>.left2>p{
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.left-flex-main>.left2>b{
+  color: red;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+/* ! left flex */
+/* ? blue flex */ 
+.left-flex-main2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.left-flex-main2>h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+.left-flex-main2>h2>b{
+  color: red;
+  margin-left: 10px;
+}
+.left-flex-main2>.left1{
+  height: 51vh;
+  width: 50%;
+}
 
+.left-flex-main2>.left2{
+  height: 51vh;
+  width: 50%;
+  background-color: black;
+}
+.left-flex-main2>.left2>img{
+  height: 50vh;
+  width: 100%;
+}
+.left-flex-main2>.left1>h3{
+  font-size: 20px;
+  margin-left: 5px;
+}
+.left-flex-main2>.left1>p{
+  margin-top: 0px;
+  margin-left: 6px;
+}
+.left-flex-main2>.left1>b{
+  color: red;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+/* ! blue flex */
 }
 
 </style>
@@ -684,7 +778,6 @@ footer>#hr{
 </footer>
 
 <footer id="footer2">
- 
       <div class="main-footer2">
         <div class="main-content-footer2">
           <div class="box3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
@@ -709,7 +802,37 @@ footer>#hr{
           </div>
         </div>
       </div>
-   
+   <!--! Left flex -->
+   <div class="left-flex-main">
+    <h2>Unlock exclusive benefits,early access to products,and <br>
+    unique experience. <b>Join the Club <i class="fa-solid fa-arrow-right"></i></b></h2>
+    <div class="left1">
+      <img src="./images/red-clube.webp" alt="">
+    </div>
+    <div class="left2">
+      <h3>One Community, <br>
+      Limitless passion</h3>
+      <p>United by one common belief - "Great happens when were all wired
+      together."</p>
+      <b>Join now...</b>
+    </div>
+  </div>
+   <!--! Left flex -->
+   <!-- ? right blue -->
+   <div class="left-flex-main2">
+    <h2>Relentless innovation defines who we are <b>OxygenOS 14<i class="fa-solid fa-arrow-right"></i></b></h2>
+    <div class="left1">
+      <h3>Evolved to Exceed</h3>
+        <p>The signature OxygenOS experience has evolved.Driven by the next- <br>
+        generation Trinity Engine, innovation feature and refreshed design <br>
+      elements discover the pinnacle of fast smooth</p>
+        <b>Learn more</b>    </div>
+    <div class="left2">
+      <img src="./images/right-blue.webp" alt="">
+    </div>
+  </div>
+
+   <!-- ? right blue -->
 </footer>
 
 
