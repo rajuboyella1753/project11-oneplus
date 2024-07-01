@@ -251,6 +251,173 @@ width: 100px;
   font-size: 10px;
   margin-left: 10px;
 }
+.parent{
+  margin-top: 2220px;
+  border:2px solid lightgray
+}
+.galary{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.galary img{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  object-fit: cover;
+  aspect-ratio: 3/1;
+}
+.parent{
+  width:100%;
+  overflow-x: scroll;
+}
+#slide-teller{
+  font-size: 21px;
+}
+/* ! footer */
+footer{
+  color: white;
+}
+.main-footer{
+  height: 50vh;
+  background-color: black;
+  width: 100%;
+}
+.main-footer>.main-footer-content{
+  background-color: black;
+  height: 5vh;
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  font-size: 8px;
+  margin-top: 5px;
+}
+footer>#hr{
+  color: white;
+}
+
+.main-footer>h2{
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: 35px;
+}
+.main-footer>h2>b{
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.main-footer>.block1-main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:25vh ;
+  width: 100vw;
+  background-color: black;
+  margin-top: 25px;
+}
+.main-footer>.block1-main>.box1{
+  background-color: black;
+  height: 25vh;
+  width:50vw;
+  font-size: 10px;
+}
+.main-footer>.block1-main>.box1>h3{
+  font-size: 15px;
+  margin-left: 9px;
+  margin-top: 0px;
+}
+.main-footer>.block1-main>.box1>p{
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.main-footer>.block1-main>.box1>#under{
+  margin-top: 10px;
+  text-decoration: underline;
+  color: red;
+}
+.main-footer>.block1-main>.box2{
+  height: 25vh;
+  width: 50vw;
+  box-sizing:border-box;
+}
+.main-footer>.block1-main>.box2>img{
+  height: 25vh;
+  width: 46vw;
+  border-radius: 0px;
+  transition: all 0.4s ease;
+}
+/* ! second footer */
+#footer2>.main-footer2{
+  height: 220vh;   /* 500 vh - 80vh */
+  width: 100%;
+  background-color: black;
+  margin-top: 0px;
+}
+#footer2>.main-footer2>.main-content-footer2{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+/* ! box 3 */
+#footer2>.main-footer2>.main-content-footer2>.box3{
+  height: 40vh;
+  width: 99vw;
+  background-color: black;
+  margin-top: 10px;
+}
+#footer2>.main-footer2>.main-content-footer2>.box3>img{
+  height: 40vh;
+  width: 90vw;
+}
+#footer2>.main-footer2>.main-content-footer2>.box3>h3{
+  font-size: 31px;
+}
+#footer2>.main-footer2>.main-content-footer2>.box3>b{
+  margin-top: 10px;
+  color: red;
+  text-decoration: underline;
+}
+/* ! box 4 */
+#footer2>.main-footer2>.main-content-footer2>.box4{
+  height: 40vh;
+  width: 99vw;
+  margin-top: 10px;
+  background-color: black;
+}
+#footer2>.main-footer2>.main-content-footer2>.box4>img{
+  height: 40vh;
+  width: 90vw;
+}
+#footer2>.main-footer2>.main-content-footer2>.box4>h3{
+  font-size: 31px;
+}
+#footer2>.main-footer2>.main-content-footer2>.box4>b{
+  margin-top: 10px;
+  color: red;
+  text-decoration: underline;
+}
+/* ! box 4 */
+#footer2>.main-footer2>.main-content-footer2>.box5{
+  height: 40vh;
+  width: 99vw;
+  background-color: black;
+}
+#footer2>.main-footer2>.main-content-footer2>.box5>img{
+  height: 40vh;
+  width: 90vw;
+}
+#footer2>.main-footer2>.main-content-footer2>.box5>h3{
+  font-size: 31px;
+}
+#footer2>.main-footer2>.main-content-footer2>.box5>b{
+  margin-top: 10px;
+  color: red;
+  text-decoration: underline;
+}
+/* ! footer */
+
 }
 
 </style>
@@ -475,7 +642,75 @@ width: 100px;
   </div>
 </div>
 
+<div class="parent">
+  <div class="galary col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <img src="./images/slide1.png" alt="">
+    <img src="./images/slide5.png" alt="">
+    <img src="./images/slide8.webp" alt="">
+    <img src="./images/slide4.png" alt="">
+    <img src="./images/slide2.png" alt="">
+    <img src="./images/slide6.png" alt="">
+    <img src="./images/slide7.png" alt="">
+    <img src="./images/slide3.png" alt="">
+  </div>
+</div>
+<h2 id="slide-teller">Check Our More Products and Buy</h2>
+<!-- ! footer session -->
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="main-footer">
+<div class="container main-footer-content">
+  <h3>Currently in Community</h3>
+</div>
+  <h2>Innovation becomes relentless when shared. OnePlus has a 
+  Never Settle story with you,<br><b>Let's Co-Create</b> </h2>
+  <div class="block1-main">
+    <div class="box1">
+      <h3>Power of <br>
+      Community</h3>
+      <p>In keeping with the Never Settle ethos, your support,feedback,and <br>
+      ideas all contribute to superior future tech products</p>
+      <p id="under">Join Now</p>
+    </div>
+    <div class="box2  ">
+      <img src="./images/box-1.webp" alt="">
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- <hr id="hr"> -->
+</footer>
 
+<footer id="footer2">
+ 
+      <div class="main-footer2">
+        <div class="main-content-footer2">
+          <div class="box3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <img src="./images/box2.webp" alt="">
+            <h3>Carnival Games 2023 <br> -Have Fun & Win!</h3>
+            <p>Play exciting games and get the chance to win big prizes,
+            including new devices.</p>
+            <b>Try now</b>
+          </div>
+          <div class="box4 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <img src="./images/box3.webp" alt="">
+            <h3>Meet, Greet,<br> and Never Settle</h3>
+            <p>Discover what happend when a group of Communication cores users met up with 
+            OnePlus founders, explored OnePlus Labs, and helped co-create new possibilites</p>
+            <b>Learn more</b>
+          </div>
+          <div class="box5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <img src="./images/box4.webp" alt="">
+            <h3>OnePlus Community Awards<br> 2023</h3>
+            <p>Thank you for making us who we are. Thank you being a part of NeverSettle</p>
+            <b>Watch video</b>
+          </div>
+        </div>
+      </div>
+   
+</footer>
 
 
 
