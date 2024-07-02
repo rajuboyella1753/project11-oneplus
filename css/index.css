@@ -586,3 +586,107 @@ footer>#hr{
 }
 /* ! left flex */
 /*? camera */
+
+/*! support */
+.support{
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 40px;
+}
+.support>p{
+  font-size: 21px;
+  color: blue;
+  text-decoration: underline;
+}
+.support>b{
+  margin-left: 1330px;
+  color: red;
+  text-decoration: underline;
+}
+/* support */
+/* !help */
+.help{
+  height: 60vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* ? help1 */
+.help>.help1{
+  height: 60vh;
+  width: 40%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.help>.help1>.sub1{
+  height: 60vh;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.help>.help1>.sub1>h3{
+  opacity: 0.4;
+}
+.help>.help1>.sub1>h2{
+  margin-top: 10px;
+}
+.help>.help1>.sub1>p{
+  margin-top: 160px;
+}
+.help>.help1>.sub1>b{
+  text-decoration: underline;
+  color: red;
+}
+.help>.help1>.sub2{
+  height: 60vh;
+  width: 50%;
+  /* background-color: blue; */
+}
+.help>.help1>.sub2>img{
+  height: 60vh;
+  width: 100%;
+}
+/* ? help2 */
+.help>.help2{
+  height: 60vh;
+  width: 40%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.help>.help2>.sub11{
+  height: 60vh;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.help>.help2>.sub11>h3{
+  opacity: 0.4;
+}
+.help>.help2>.sub11>h2{
+  margin-top: 10px;
+}
+.help>.help2>.sub11>p{
+  margin-top: 140px;
+}
+.help>.help2>.sub11>b{
+  text-decoration: underline;
+  color: red;
+}
+.help>.help2>.sub21{
+  height: 60vh;
+  width: 50%;
+  background-color: blue;
+}
+.help>.help2>.sub21>img{
+  height: 60vh;
+  width: 100%;
+}
+/* !help */

@@ -589,6 +589,118 @@ footer>#hr{
 }
 /* ! left flex */
 /*? camera */
+
+/*! support */
+.support{
+  display: flex;
+  background-color: whitesmoke;
+  color: black;
+  height: 40px;
+}
+.support>p{
+  font-size:20px;
+  font-weight: 500;
+  color: red;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.support>b{
+  margin-left: 200px;
+  color: red;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+/* support */
+/* !help */
+.help{
+  height: 60vh;
+  width: 100%;
+  /* background-color: red; */
+  display:grid;
+  flex-direction:column;
+
+}
+/* ? help1 */
+.help>.help1{
+  height: 60vh;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.help>.help1>.sub1{
+  height: 60vh;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.help>.help1>.sub1>h3{
+  opacity: 0.4;
+  font-size: 17px;
+}
+.help>.help1>.sub1>h2{
+  margin-top: 10px;
+  font-size: 19px;
+
+}
+.help>.help1>.sub1>p{
+  margin-top: 10px;
+}
+.help>.help1>.sub1>b{
+  text-decoration: underline;
+  color: red;
+}
+.help>.help1>.sub2{
+  height: 60vh;
+  width: 50%;
+  /* background-color: blue; */
+}
+.help>.help1>.sub2>img{
+  height: 60vh;
+  width: 100%;
+}
+/* ? help2 */
+.help>.help2{
+  margin-top: 5px;
+  height: 60vh;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.help>.help2>.sub11{
+  height: 60vh;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.help>.help2>.sub11>h3{
+  opacity: 0.4;
+  font-size: 17px;
+}
+.help>.help2>.sub11>h2{
+  margin-top: 10px;
+  font-size: 19px;
+}
+.help>.help2>.sub11>p{
+  margin-top: 10px;
+}
+.help>.help2>.sub11>b{
+  text-decoration: underline;
+  color: red;
+}
+.help>.help2>.sub21{
+  height: 60vh;
+  width: 50%;
+  background-color: blue;
+}
+.help>.help2>.sub21>img{
+  height: 60vh;
+  width: 100%;
+}
+/* !help */
 }
 
 </style>
@@ -928,6 +1040,35 @@ footer>#hr{
    <!-- !camera -->
 </footer>
 
+<div class="support">
+  <p>Support</p> 
+  <b>View More</b>
+</div>
+<hr>
+<div class="help">
+  <div class="help1 ">
+    <div class="sub1">
+      <h3>One-on-One with Oneplus</h3>
+      <h2>Your personal <br>helpdesk.</h2>
+      <p>From finding the perfect phone to quickly resolving queries,we're always ready to help.</p>
+      <b>Let's cart</b>
+    </div>
+    <div class="sub2">
+      <img src="./images/help1.webp" alt="">
+    </div>
+  </div>
+  <div class="help2">
+    <div class="sub11">
+      <h3>OnePlus Service Center</h3>
+      <h2>Our technical team <br>is here to help.</h2>
+      <p>We have over 250 authorized services centers across the india. All the fully-trained OnePlus staff are at your service.</p>
+      <b>Find nearest services center</b>
+    </div>
+    <div class="sub21">
+      <img src="./images/help2.webp" alt="">
+    </div>
+  </div>
+</div>
 
 
 
