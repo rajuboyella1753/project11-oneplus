@@ -713,3 +713,74 @@ footer>#hr{
 }
 
 /* shoting */
+
+/*! end */
+.end{
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.end>.end1{
+  margin-top: 5vh;
+  height: 50vh;
+  width: 40%;
+  /* background-color: green; */
+  position: relative;
+}
+.end>.end1>img{
+  height: 50vh;
+  width: 100%;
+}
+.end>.end1>.end-content1{
+  position: absolute;
+  top: 10%;
+  color: white;
+  margin-left: 10px;
+}
+.end>.end1>.end-content1>p{
+  margin-top: 0px;
+}
+.end>.end1>.end-content1>.play{
+  margin-top: 150px;
+  margin-left: 30px;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.end>.end2{
+  height: 50vh;
+  width: 40%;
+  /* background-color: yellow; */
+  margin-top: 5vh;
+  position: relative;
+}
+.end>.end2>img{
+  height: 50vh;
+  width: 100%;
+}
+.end>.end2>.end-content2{
+  position: absolute;
+  top: 10%;
+  color: white;
+  margin-left: 10px;
+}
+.end>.end2>.end-content2>p{
+  margin-top: 0px;
+}
+.end>.end2>.end-content2>.play{
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+/*! end */
