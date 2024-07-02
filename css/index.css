@@ -690,3 +690,26 @@ footer>#hr{
   width: 100%;
 }
 /* !help */
+
+/* shoting */
+.products{
+  display: flex;
+  /* gap: 70px;
+  margin-left: 200px; */
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 15px;
+  border-style: groove;
+  border-width: 0.5px;
+}
+.products>h4{
+  border-style: groove;
+  margin-top: 8px;
+  border-width: 0.7px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+/* shoting */
