@@ -877,7 +877,7 @@ footer>#hr{
 
 /* ! mobile footer */
 .mobile-footer{
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   background-color: black;
   color: white;
