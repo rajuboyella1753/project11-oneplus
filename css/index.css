@@ -161,7 +161,7 @@
   height: 60vh;
   width: 100%;
   position: relative;
-  background-color: green;
+  /* background-color: green; */
   margin-top: 1px;
   z-index: 0;
 }
